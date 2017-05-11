@@ -29,7 +29,7 @@ Include the taggle javascript in your `app/assets/javascripts/application.js` or
 This will include `taggle-ie8.js`, `taggle-ie9.js` and `taggle.js`. You can also require each one of these three files individually if you prefer.
 
 ## Stylesheets
-I put together several styles based on the official examples of Taggle.js. These styles should be enough for you to get started but they probably require some overriding to fit your page design.
+I've put together several styles based on the official examples of Taggle.js. These styles should be enough for you to get started but they probably require some overriding to fit your page design.
 
 To use this unofficial set of styles, include in your `app/assets/stylesheets/application.js` or `app/assets/stylesheets/vendor.js`:
 ```
@@ -42,7 +42,7 @@ And add the class `taggle` to the div you'll use to wrap the tags. Example:
 
 <%= javascript_tag do %>
   new Taggle('example');
-<%= end %>
+<% end %>
 ```
 
 ## License
